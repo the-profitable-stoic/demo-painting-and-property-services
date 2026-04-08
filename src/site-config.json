@@ -1,0 +1,600 @@
+{
+  "business": {
+    "name": "Painting and Property Services",
+    "phone": "+13177165550",
+    "category": "house painter",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-mountain-bold",
+      "categoryGroup": "roofing",
+      "name": "Mountain Bold",
+      "recipeFile": "roofing/mountain-bold.astro",
+      "colors": {
+        "primary": "#1A3A52",
+        "primaryDark": "#0F2436",
+        "primaryLight": "#C8DDE8",
+        "secondary": "#2D5F7C",
+        "accent": "#FFC600",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1A3A52",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Indianapolis Painting Done Right.",
+      "heroSubline": "Protecting homes across Indy, Carmel, and Fishers. Quality painting that lasts, guaranteed.",
+      "aboutTitle": "Your Trusted Indianapolis House Painter",
+      "aboutText": [
+        "Painting and Property Services started with a simple goal: to provide Indianapolis homeowners with reliable, high-quality painting services they could depend on. We're not just painters; we're your neighbors, dedicated to enhancing the beauty and value of our community, one brushstroke at a time.",
+        "Our approach is straightforward: meticulous preparation, premium materials, and skilled craftsmanship. We believe in clear communication, transparent pricing, and treating every home as if it were our own. We don't cut corners, and we stand behind our work.",
+        "From the historic homes of Irvington to the modern residences of Carmel, we're committed to serving the Indianapolis area with integrity and pride. We actively support local initiatives and strive to be a positive force in the neighborhoods we serve."
+      ],
+      "valueProps": [
+        {
+          "title": "Expert Craftsmanship",
+          "description": "Years of experience delivering flawless finishes and lasting results."
+        },
+        {
+          "title": "Premium Materials",
+          "description": "We use only top-quality paints and supplies for maximum durability and beauty."
+        },
+        {
+          "title": "Detailed Prep Work",
+          "description": "Thorough preparation is key to a long-lasting paint job."
+        },
+        {
+          "title": "Guaranteed Satisfaction",
+          "description": "We're not happy until you are. Your satisfaction is our top priority."
+        }
+      ],
+      "ctaHeadline": "Ready for a Fresh Coat?",
+      "ctaSubline": "Get a free, no-obligation quote for your Indianapolis painting project today!"
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your living spaces with our expert interior painting services.",
+        "description": "Revitalize your Indianapolis home with our professional interior painting services. We understand the nuances of Indianapolis architecture, from the older homes in Broad Ripple to the newer constructions in Fishers. Our team meticulously prepares each surface, addressing imperfections and ensuring a smooth, even finish. We use only premium paints that are durable and long-lasting, perfectly suited to withstand the humidity of Indiana summers and the dryness of our winters.\n\nWe handle everything from color consultations to complete room transformations. We protect your furniture and flooring, and we leave your home clean and tidy. Whether you're looking to update a single room or repaint your entire house, we deliver exceptional results that enhance the beauty and value of your home.\n\nOur team is experienced in working with all types of interior surfaces, including drywall, plaster, and wood. We know how to properly address common issues like nail pops, cracks, and water stains, ensuring a flawless finish that will last for years to come. We take pride in our attention to detail and our commitment to customer satisfaction.",
+        "process": [
+          "Consultation and Color Selection",
+          "Surface Preparation (cleaning, patching, priming)",
+          "Application of Premium Paints",
+          "Final Inspection and Clean-up"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Improved Air Quality",
+          "Enhanced Aesthetics",
+          "Protection from Damage"
+        ],
+        "faq": [
+          {
+            "question": "How long does an interior painting project typically take?",
+            "answer": "The duration depends on the size and complexity of the project, but we always provide a realistic timeline upfront and stick to it."
+          },
+          {
+            "question": "Do I need to move all of my furniture?",
+            "answer": "We can help you move furniture, and we will cover everything to protect it from paint splatters."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use premium-quality paints from trusted brands that are specifically formulated for interior use and are low in VOCs."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home's exterior with our professional painting services.",
+        "description": "Indianapolis weather can be tough on homes. From freezing winters to humid summers, your exterior paint job needs to withstand it all. We provide exterior painting services that not only enhance your home's curb appeal but also protect it from the elements. We understand the unique challenges of painting homes in the Indianapolis area, considering factors like the clay soil, freeze-thaw cycles, and potential for severe weather.\n\nOur team begins with a thorough assessment of your home's exterior, identifying any areas of damage or wear. We then meticulously prepare the surfaces, including power washing, scraping, and priming, to ensure proper adhesion and a long-lasting finish. We use only premium exterior paints that are designed to withstand the harsh Indiana climate and resist fading, cracking, and peeling.\n\nWhether you have a historic home in Noblesville or a newer construction in Carmel, we have the expertise to handle any exterior painting project. We take pride in our attention to detail and our commitment to providing exceptional results that will protect and beautify your home for years to come.",
+        "process": [
+          "Thorough Exterior Assessment",
+          "Power Washing and Surface Preparation",
+          "Application of Primer and Premium Exterior Paint",
+          "Detailed Inspection and Clean-up"
+        ],
+        "benefits": [
+          "Increased Curb Appeal",
+          "Protection from Weather Damage",
+          "Extended Lifespan of Siding",
+          "Increased Home Value"
+        ],
+        "faq": [
+          {
+            "question": "How often should I repaint my home's exterior?",
+            "answer": "Typically, every 5-10 years, depending on the condition of the existing paint and the type of siding."
+          },
+          {
+            "question": "Do you offer color consultations for exterior painting?",
+            "answer": "Yes, we can help you choose the perfect colors to complement your home's style and surroundings."
+          },
+          {
+            "question": "Are you insured?",
+            "answer": "Yes, we are fully insured for your protection and peace of mind."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining-and-sealing",
+        "name": "Deck Staining and Sealing",
+        "shortDescription": "Preserve and protect your deck with our expert staining and sealing services.",
+        "description": "Indianapolis decks take a beating from the elements. Our deck staining and sealing services protect your outdoor living space from moisture, UV damage, and wear and tear. We understand the importance of proper preparation and application to ensure a long-lasting and beautiful finish.\n\nWe begin by thoroughly cleaning your deck to remove dirt, mildew, and old stain or sealant. We then sand any rough spots and repair any damaged boards. We use only premium stains and sealants that are specifically designed for outdoor use and are resistant to water, UV rays, and mildew.\n\nWhether you have a new deck that needs to be protected or an older deck that needs to be revitalized, we have the expertise to handle any deck staining and sealing project. We take pride in our attention to detail and our commitment to providing exceptional results that will enhance the beauty and longevity of your deck.",
+        "process": [
+          "Deck Cleaning and Preparation",
+          "Sanding and Repairs",
+          "Application of Premium Stain or Sealant",
+          "Final Inspection"
+        ],
+        "benefits": [
+          "Protection from Moisture Damage",
+          "Prevention of Rot and Decay",
+          "Enhanced Appearance",
+          "Extended Deck Lifespan"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain or seal my deck?",
+            "answer": "Typically, every 1-3 years, depending on the type of stain or sealant used and the amount of exposure to the elements."
+          },
+          {
+            "question": "What type of stain or sealant should I use?",
+            "answer": "We can help you choose the best stain or sealant for your deck based on your budget, desired appearance, and the type of wood your deck is made of."
+          },
+          {
+            "question": "Can you repair damaged deck boards?",
+            "answer": "Yes, we can repair or replace damaged deck boards as part of our deck staining and sealing services."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless drywall repairs to restore your walls and ceilings.",
+        "description": "From nail holes to water damage, drywall can suffer a variety of imperfections. Our drywall repair services restore your walls and ceilings to their original condition, providing a smooth and seamless surface for painting.\n\nWe begin by assessing the damage and determining the best course of action. We then carefully patch any holes or cracks, using high-quality materials and techniques to ensure a strong and durable repair. We sand the patched areas smooth and prime them for painting, creating a flawless surface that blends seamlessly with the surrounding drywall.\n\nWhether you have a small nail hole or a large section of damaged drywall, we have the expertise to handle any drywall repair project. We take pride in our attention to detail and our commitment to providing exceptional results that will make your walls and ceilings look like new.",
+        "process": [
+          "Damage Assessment",
+          "Patching and Repair",
+          "Sanding and Priming",
+          "Seamless Finish"
+        ],
+        "benefits": [
+          "Restored Wall Integrity",
+          "Improved Aesthetics",
+          "Prevention of Further Damage",
+          "Seamless Finish"
+        ],
+        "faq": [
+          {
+            "question": "How long does a drywall repair project typically take?",
+            "answer": "The duration depends on the size and complexity of the repair, but we always provide a realistic timeline upfront."
+          },
+          {
+            "question": "Can you match the texture of my existing drywall?",
+            "answer": "Yes, we are skilled at matching a variety of drywall textures."
+          },
+          {
+            "question": "Do you offer painting services after the drywall repair is complete?",
+            "answer": "Yes, we offer complete painting services to ensure a seamless and professional finish."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-painting",
+        "name": "Cabinet Painting",
+        "shortDescription": "Update your kitchen or bathroom with our professional cabinet painting services.",
+        "description": "Give your kitchen or bathroom a fresh, new look without the cost of replacing your cabinets. Our cabinet painting services transform outdated or worn cabinets with a durable and beautiful finish. We understand the importance of proper preparation and application to ensure a long-lasting and professional result.\n\nWe begin by thoroughly cleaning and degreasing your cabinets. We then sand the surfaces to create a smooth and even base for the paint. We apply multiple coats of premium cabinet paint, using a spray application for a flawless finish. We also replace or update hardware as needed, giving your cabinets a completely new look.\n\nWhether you want to update your kitchen cabinets or refresh your bathroom vanity, we have the expertise to handle any cabinet painting project. We take pride in our attention to detail and our commitment to providing exceptional results that will enhance the beauty and value of your home.",
+        "process": [
+          "Cabinet Cleaning and Degreasing",
+          "Sanding and Priming",
+          "Application of Premium Cabinet Paint (sprayed)",
+          "Hardware Replacement (optional)"
+        ],
+        "benefits": [
+          "Cost-Effective Renovation",
+          "Updated Kitchen or Bathroom",
+          "Durable and Beautiful Finish",
+          "Increased Home Value"
+        ],
+        "faq": [
+          {
+            "question": "How long does a cabinet painting project typically take?",
+            "answer": "The duration depends on the size and complexity of the project, but it usually takes 3-5 days."
+          },
+          {
+            "question": "Can you paint cabinets that have a laminate or veneer finish?",
+            "answer": "Yes, we can paint cabinets with a laminate or veneer finish, but it requires special preparation and priming."
+          },
+          {
+            "question": "Do I need to empty my cabinets before you start painting?",
+            "answer": "Yes, we ask that you empty your cabinets before we begin the painting process."
+          }
+        ]
+      },
+      {
+        "slug": "siding-repair",
+        "name": "Siding Repair",
+        "shortDescription": "Protect your home from the elements with our expert siding repair services.",
+        "description": "Damaged siding can compromise your home's protection from the elements and detract from its curb appeal. Our siding repair services address a variety of issues, from cracks and holes to rot and decay. We understand the importance of using high-quality materials and techniques to ensure a long-lasting and effective repair.\n\nWe begin by assessing the damage and determining the best course of action. We then carefully repair or replace damaged siding panels, using materials that match your existing siding as closely as possible. We seal any gaps or cracks to prevent moisture intrusion and protect your home from the elements.\n\nWhether you have vinyl siding, wood siding, or fiber cement siding, we have the expertise to handle any siding repair project. We take pride in our attention to detail and our commitment to providing exceptional results that will protect and beautify your home for years to come. Given Indianapolis's fluctuating temperatures, proper siding upkeep is crucial.",
+        "process": [
+          "Damage Assessment",
+          "Repair or Replacement of Damaged Panels",
+          "Sealing and Caulking",
+          "Matching Materials"
+        ],
+        "benefits": [
+          "Protection from the Elements",
+          "Improved Curb Appeal",
+          "Prevention of Further Damage",
+          "Increased Home Value"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my siding needs to be repaired?",
+            "answer": "Look for signs of damage such as cracks, holes, rot, or decay."
+          },
+          {
+            "question": "Can you match the color of my existing siding?",
+            "answer": "Yes, we can match the color of your existing siding as closely as possible."
+          },
+          {
+            "question": "What types of siding do you repair?",
+            "answer": "We repair all types of siding, including vinyl, wood, and fiber cement."
+          }
+        ]
+      },
+      {
+        "slug": "wallpaper-removal",
+        "name": "Wallpaper Removal",
+        "shortDescription": "Remove old wallpaper quickly and cleanly with our professional service.",
+        "description": "Removing wallpaper can be a tedious and messy task. Our wallpaper removal service takes the hassle out of updating your walls, leaving them smooth and ready for paint or new wallpaper. We understand the importance of proper techniques to avoid damaging the underlying drywall or plaster.\n\nWe begin by scoring the wallpaper and applying a wallpaper removal solution. We then carefully peel away the wallpaper, using steamers and scrapers as needed. We remove any remaining adhesive and repair any damage to the underlying surface. Finally, we prime the walls to create a smooth and even surface for painting or new wallpaper. Many older Indianapolis homes still have stubborn wallpaper, and we're experienced in tackling these jobs.\n\nWhether you have a single room or an entire house full of wallpaper, we have the expertise to handle any wallpaper removal project. We take pride in our attention to detail and our commitment to providing exceptional results that will leave your walls looking like new.",
+        "process": [
+          "Scoring and Solution Application",
+          "Wallpaper Removal",
+          "Adhesive Removal",
+          "Surface Repair and Priming"
+        ],
+        "benefits": [
+          "Smooth, Paint-Ready Walls",
+          "Avoidance of Damage",
+          "Time Savings",
+          "Professional Results"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to remove wallpaper from a room?",
+            "answer": "The duration depends on the size of the room and the type of wallpaper, but we'll provide a clear estimate."
+          },
+          {
+            "question": "Will removing the wallpaper damage my walls?",
+            "answer": "We take precautions to minimize damage and repair any imperfections."
+          },
+          {
+            "question": "Do I need to do anything to prepare for the wallpaper removal?",
+            "answer": "We ask that you remove any furniture or valuables from the room."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Carmel",
+        "slug": "carmel-in",
+        "state": "IN",
+        "content": "Painting and Property Services is proud to offer our expert painting services to the residents and businesses of Carmel, Indiana. Known for its upscale 1980s-2000s developments and beautiful landscaping, Carmel presents unique painting challenges and opportunities. We understand the specific needs of homes in areas like Clay Terrace and the Village of WestClay, ensuring a flawless finish that complements the architectural style and withstands Indiana's cold winters with snow and ice. Whether you need interior painting to refresh your living spaces or exterior painting to protect your home from the elements, we're here to help. \n\nWe use only the highest-quality paints and materials to ensure a long-lasting and beautiful result. Our experienced painters are skilled in all aspects of painting, from surface preparation to the final coat. We take pride in our attention to detail and our commitment to customer satisfaction. From prepping surfaces to meticulous painting and thorough cleanup, we ensure your Carmel home looks its absolute best. We're committed to providing exceptional service and results that exceed your expectations.",
+        "localContext": "Carmel is characterized by its upscale residential areas dating from the 1980s to the 2000s, with a focus on planned developments and manicured landscapes that require careful attention to detail when painting.",
+        "nearbyAreas": [
+          "Indianapolis",
+          "Zionsville",
+          "Westfield"
+        ]
+      },
+      {
+        "city": "Fishers",
+        "slug": "fishers-in",
+        "state": "IN",
+        "content": "Painting and Property Services is delighted to serve the growing community of Fishers, Indiana. With its newer 1990s-2020s planned communities and family-friendly atmosphere, Fishers offers a diverse range of homes and businesses that require professional painting services. We are familiar with the specific construction styles and common issues in areas like Saxony and Geist Reservoir, ensuring a durable and aesthetically pleasing finish that can endure Indiana's cold, snowy winters. Whether you're looking to update your home's interior, refresh its exterior, or protect it from the elements, we have the experience and expertise to get the job done right. \n\nOur team of skilled painters uses only top-quality paints and materials to ensure a long-lasting and beautiful result. We understand the importance of proper surface preparation and meticulous application, and we take pride in our attention to detail. We are committed to providing exceptional customer service and exceeding your expectations. From new construction to repaints, we're equipped to handle any painting project in Fishers with professionalism and care.",
+        "localContext": "Fishers is mostly comprised of newer planned communities built from the 1990s through the 2020s, requiring painting services that cater to modern architectural styles and homeowner preferences.",
+        "nearbyAreas": [
+          "Indianapolis",
+          "Noblesville",
+          "McCordsville"
+        ]
+      },
+      {
+        "city": "Noblesville",
+        "slug": "noblesville-in",
+        "state": "IN",
+        "content": "Painting and Property Services is proud to offer our painting services to the historic city of Noblesville, Indiana. Known for its charming Courthouse Square area and diverse architectural styles, Noblesville presents unique painting challenges and opportunities. We have experience working on historic homes, as well as newer constructions, ensuring a finish that complements the character of your property and withstands Indiana's variable weather, including cold winters with snow and ice. Whether you need to preserve the integrity of a historic facade or update the interior of a modern home, we're here to help. \n\nWe use only the highest-quality paints and materials to ensure a long-lasting and beautiful result. Our experienced painters are skilled in all aspects of painting, from surface preparation to the final coat. We take pride in our attention to detail and our commitment to customer satisfaction. From color consultation to meticulous execution, we strive to provide a seamless and stress-free experience for our Noblesville clients.",
+        "localContext": "Noblesville features a historic Courthouse Square area with older homes, demanding painting techniques that respect the original architecture and materials.",
+        "nearbyAreas": [
+          "Fishers",
+          "Carmel",
+          "Cicero"
+        ]
+      },
+      {
+        "city": "Zionsville",
+        "slug": "zionsville-in",
+        "state": "IN",
+        "content": "Painting and Property Services is pleased to provide our painting services to the residents and businesses of Zionsville, Indiana. With its village-like atmosphere and beautiful homes, Zionsville requires painting services that are both professional and detail-oriented. We understand the unique needs of homes in the area, ensuring a flawless finish that complements the architectural style and withstands Indiana's climate. Whether you need interior painting to refresh your living spaces or exterior painting to protect your home, we're here to help. We also offer power washing and deck staining services to keep your home looking its best. \n\nOur team of skilled painters uses only top-quality paints and materials to ensure a long-lasting and beautiful result. We understand the importance of proper surface preparation and meticulous application, and we take pride in our attention to detail. We are committed to providing exceptional customer service and exceeding your expectations. From color consultations to the final cleanup, we'll make sure your painting project is a success.",
+        "localContext": "Zionsville's charming, village-like atmosphere and upscale homes demand meticulous painting services that enhance the aesthetic appeal of the community.",
+        "nearbyAreas": [
+          "Carmel",
+          "Whitestown",
+          "Lebanon"
+        ]
+      },
+      {
+        "city": "Westfield",
+        "slug": "westfield-in",
+        "state": "IN",
+        "content": "Painting and Property Services is excited to offer our painting services to the growing community of Westfield, Indiana. Known for its family-friendly environment and newer developments, Westfield boasts a variety of homes and businesses that require professional painting services. We are familiar with the specific construction styles and common issues in the area, ensuring a durable and aesthetically pleasing finish that can endure Indiana's weather. Whether you're looking to update your home's interior, refresh its exterior, or protect it from the elements, we have the experience and expertise to get the job done right. \n\nOur team of skilled painters uses only top-quality paints and materials to ensure a long-lasting and beautiful result. We understand the importance of proper surface preparation and meticulous application, and we take pride in our attention to detail. We are committed to providing exceptional customer service and exceeding your expectations. From new construction to repaints, we're equipped to handle any painting project in Westfield with professionalism and care.",
+        "localContext": "Westfield's rapid growth and development necessitate painting services that can handle the demands of new construction and the maintenance of existing properties.",
+        "nearbyAreas": [
+          "Carmel",
+          "Sheridan",
+          "Noblesville"
+        ]
+      },
+      {
+        "city": "Lawrence",
+        "slug": "lawrence-in",
+        "state": "IN",
+        "content": "Painting and Property Services proudly serves the vibrant community of Lawrence, Indiana. With a diverse range of homes and businesses, Lawrence presents a variety of painting needs. We are experienced in working with different architectural styles and materials, ensuring a quality finish that enhances the beauty and value of your property. Whether you need interior painting, exterior painting, or commercial painting services, we have the skills and expertise to get the job done right. \n\nWe use only the highest-quality paints and materials to ensure a long-lasting and beautiful result. Our experienced painters are skilled in all aspects of painting, from surface preparation to the final coat. We take pride in our attention to detail and our commitment to customer satisfaction. We are dedicated to providing exceptional service and making your painting project a success.",
+        "localContext": "Lawrence features a mix of residential and commercial properties, requiring a versatile painting service that can adapt to different project scopes and requirements.",
+        "nearbyAreas": [
+          "Indianapolis",
+          "Fishers",
+          "McCordsville"
+        ]
+      },
+      {
+        "city": "Brownsburg",
+        "slug": "brownsburg-in",
+        "state": "IN",
+        "content": "Painting and Property Services is pleased to offer our professional painting services to the residents and businesses of Brownsburg, Indiana. Brownsburg is a growing community with a mix of older and newer homes, each with its own unique painting needs. We are experienced in working with a variety of architectural styles and materials, ensuring a quality finish that enhances the beauty and value of your property. Whether you need interior painting, exterior painting, or commercial painting services, we have the skills and expertise to get the job done right. \n\nWe use only the highest-quality paints and materials to ensure a long-lasting and beautiful result. Our experienced painters are skilled in all aspects of painting, from surface preparation to the final coat. We take pride in our attention to detail and our commitment to customer satisfaction. Our goal is to provide exceptional service and make your painting project a seamless and stress-free experience.",
+        "localContext": "Brownsburg's mix of established neighborhoods and new developments necessitates painting services that can cater to both traditional and contemporary styles.",
+        "nearbyAreas": [
+          "Avon",
+          "Plainfield",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Avon",
+        "slug": "avon-in",
+        "state": "IN",
+        "content": "Painting and Property Services is proud to serve the growing community of Avon, Indiana, providing top-notch painting solutions for homes and businesses. With a mix of residential neighborhoods and commercial areas, Avon presents diverse painting needs. We are experienced in working with various architectural styles and materials, ensuring a quality finish that enhances the beauty and value of your property. Whether you need interior painting to refresh your living spaces or exterior painting to protect your home from the elements, we are here to help. \n\nOur team uses only the highest-quality paints and materials to ensure a long-lasting and beautiful result. We take pride in our attention to detail and our commitment to customer satisfaction. From color consultations to the final cleanup, we are dedicated to providing exceptional service and making your painting project a success.",
+        "localContext": "Avon's blend of residential and commercial properties requires painting services that are adaptable and capable of handling diverse project requirements.",
+        "nearbyAreas": [
+          "Brownsburg",
+          "Plainfield",
+          "Indianapolis"
+        ]
+      },
+      {
+        "city": "Plainfield",
+        "slug": "plainfield-in",
+        "state": "IN",
+        "content": "Painting and Property Services is delighted to extend its professional painting services to the residents and businesses of Plainfield, Indiana. Plainfield, with its blend of established homes and newer developments, offers a variety of painting projects. We understand the unique needs of this community and are dedicated to providing top-quality workmanship. Whether you're looking to refresh your home's interior, enhance its curb appeal with a new exterior coat, or need commercial painting services, we're equipped to handle it with expertise. \n\nOur team of skilled painters uses only premium paints and materials to ensure a durable and visually appealing outcome. We take pride in our meticulous approach, from thorough surface preparation to the final brushstroke. Our commitment is to deliver exceptional customer service and exceed your expectations. From initial consultation to post-project cleanup, we strive to make your painting experience seamless and satisfying.",
+        "localContext": "Plainfield's mix of residential and commercial properties calls for painting services that can cater to various project scopes and architectural styles.",
+        "nearbyAreas": [
+          "Avon",
+          "Brownsburg",
+          "Mooresville"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "Painting and Property Services did an amazing job painting the interior of my Broad Ripple bungalow. They were efficient, professional, and the quality of their work is outstanding. My house looks brand new!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "John B.",
+        "rating": 4,
+        "service": "Exterior Painting",
+        "text": "We hired them to paint the exterior of our home in Carmel. The team was punctual and worked hard. There were a couple of minor touch-ups needed, but they addressed them quickly and without any hassle. Overall, a solid job.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 5,
+        "service": "Deck Staining and Sealing",
+        "text": "Our deck was looking pretty rough after the winter. Painting and Property Services did a fantastic job cleaning, staining, and sealing it. It looks beautiful now, and I'm confident it will last for years to come. Great communication throughout the process.",
+        "date": "2024-11-01"
+      },
+      {
+        "name": "David S.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "I had a large hole in my drywall from a water leak. They came in and repaired it quickly and seamlessly. You can't even tell there was ever a hole there. Highly recommend!",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "Lisa R.",
+        "rating": 4,
+        "service": "Cabinet Painting",
+        "text": "We had our kitchen cabinets painted, and they look fantastic! The color is perfect, and the finish is smooth and durable. The only reason I didn't give 5 stars is that it took a little longer than originally estimated.",
+        "date": "2024-07-05"
+      },
+      {
+        "name": "Michael T.",
+        "rating": 5,
+        "service": "Siding Repair",
+        "text": "After a bad storm, the siding on my house was damaged. Painting and Property Services came out and repaired it quickly and professionally. They matched the existing siding perfectly and the price was very reasonable.",
+        "date": "2024-05-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Indianapolis House Painter | Painting and Property Services",
+        "description": "Top-rated Indianapolis painting services. Interior, exterior, decks, siding. Free quotes! Serving Carmel, Fishers, Noblesville."
+      },
+      "about": {
+        "title": "About Us | Painting and Property Services",
+        "description": "Learn about Painting and Property Services, your trusted Indianapolis painting contractor. Quality workmanship and customer satisfaction guaranteed."
+      },
+      "services": {
+        "title": "Painting Services | Indianapolis, IN",
+        "description": "Comprehensive painting services in Indianapolis. Interior, exterior, drywall repair, cabinet painting, and more. Get a free quote today!"
+      },
+      "contact": {
+        "title": "Contact Us | Painting and Property Services",
+        "description": "Contact Painting and Property Services for your Indianapolis painting needs. Get a free estimate and schedule your project today!"
+      },
+      "reviews": {
+        "title": "Customer Reviews | Painting and Property Services",
+        "description": "Read what our satisfied customers are saying about Painting and Property Services. See why we're the top choice for painting in Indianapolis."
+      },
+      "service-areas": {
+        "title": "Service Areas | Painting and Property Services",
+        "description": "Painting services in Indianapolis, Carmel, Fishers, and Noblesville. Contact us today for a free quote in your area!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "deck-staining-and-sealing": "/images/service-deck-staining-and-sealing.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "cabinet-painting": "/images/service-cabinet-painting.webp",
+      "siding-repair": "/images/service-siding-repair.webp",
+      "wallpaper-removal": "/images/service-wallpaper-removal.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining-and-sealing": {
+        "src": "/images/service-deck-staining-and-sealing.webp",
+        "srcset": "/images/service-deck-staining-and-sealing-400w.webp 400w, /images/service-deck-staining-and-sealing-800w.webp 800w, /images/service-deck-staining-and-sealing-1200w.webp 1200w, /images/service-deck-staining-and-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-painting": {
+        "src": "/images/service-cabinet-painting.webp",
+        "srcset": "/images/service-cabinet-painting-400w.webp 400w, /images/service-cabinet-painting-800w.webp 800w, /images/service-cabinet-painting-1200w.webp 1200w, /images/service-cabinet-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "siding-repair": {
+        "src": "/images/service-siding-repair.webp",
+        "srcset": "/images/service-siding-repair-400w.webp 400w, /images/service-siding-repair-800w.webp 800w, /images/service-siding-repair-1200w.webp 1200w, /images/service-siding-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "wallpaper-removal": {
+        "src": "/images/service-wallpaper-removal.webp",
+        "srcset": "/images/service-wallpaper-removal-400w.webp 400w, /images/service-wallpaper-removal-800w.webp 800w, /images/service-wallpaper-removal-1200w.webp 1200w, /images/service-wallpaper-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
